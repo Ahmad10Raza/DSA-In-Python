@@ -18,6 +18,10 @@
 # All operations have a time complexity of O(n) where n is the number of elements in the stack.
 # The space complexity is O(n) where n is the number of elements in the stack.
 
+# Pop operation is costly  in this implementation as we have to move all elements from q1 to q2 for every push operation.
+# If we want to make pop operation costly, we can move all elements from q1 to q2 for every pop operation.
+# This way, the pop operation will have a time complexity of O(n) and the push operation will have a time complexity of O(1).
+
 
 
 from queue import Queue
